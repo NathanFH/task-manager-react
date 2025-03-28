@@ -3,7 +3,6 @@ import Tasks from "./assets/components/Tasks";
 import { useEffect, useState } from 'react';
 import './index.css'
 import {v4} from 'uuid'
-import Test from "./assets/components/Test";
 
 
 function App(){
@@ -58,7 +57,6 @@ function onDeleteTaskClick(taskId){
   return(
     <div className="w-screen h-screen bg-slate-500 flex justify-center p-6">
       <div className="w-[500px] space-y-4">
-        <Test/>
           <h1 className="text-3xl text-slate-100 font-bold text-center">
             Task Manager
             </h1>

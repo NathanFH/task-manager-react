@@ -18,7 +18,7 @@ function Tasks(props){
             <button 
             onClick={()=>props.onTaskClick(task.id)}
             className={`bg-slate-400 w-full flex items-center gap-2 text-white p-2 rounded-md text-left ${task.isCompleted && 'line-through'}`}>
-                {task.isCompleted && <CheckIcon}
+                {task.isCompleted && <CheckIcon/>}
                 {task.title}
             </button>
         <button onClick={() => onSeeDetailsClick(task) } className="bg-slate-400 p-2 rounded-md text-white">
